@@ -129,6 +129,7 @@ waitingText = "En attente de Microsoft.."
 [ejs.welcome]
 continueButton = "CONTINUER"
 
+
 [js.discord]
 waiting = "En attente du client.."
 state = "Serveur : {shortId}"
@@ -170,18 +171,18 @@ offline = "HORS LIGNE"
 players = "JOUEURS"
 
 [js.landing.systemScan]
-checking = "Vérification des informations système.."
-noCompatibleJava = "Aucune installation de Java<br>compatible trouvée"
-installJavaMessage = "Pour lancer Minecraft, vous avez besoin d'une installation 64 bits de Java {major}. Souhaitez-vous que nous installions une copie ?"
-installJava = "Installer Java"
-installJavaManually = "Installer manuellement"
-javaDownloadPrepare = "Préparation du téléchargement de Java.."
-javaDownloadFailureTitle = "Erreur lors du téléchargement de Java"
-javaDownloadFailureText = "Consultez la console (CTRL + Maj + I) pour plus de détails."
-javaRequired = "Java est requis<br>pour le lancement"
-javaRequiredMessage = 'Une installation valide de Java {major} en 64 bits est nécessaire pour le lancement.<br><br>Veuillez consulter notre <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Guide de gestion de Java</a> pour des instructions sur l'installation manuelle de Java.'
-javaRequiredDismiss = "J'ai compris"
-javaRequiredCancel = "Revenir en arrière"
+checking = "Checking system info.."
+noCompatibleJava = "No Compatible<br>Java Installation Found"
+installJavaMessage = "In order to launch Minecraft, you need a 64-bit installation of Java {major}. Would you like us to install a copy?"
+installJava = "Install Java"
+installJavaManually = "Install Manually"
+javaDownloadPrepare = "Preparing Java Download.."
+javaDownloadFailureTitle = "Error During Java Download"
+javaDownloadFailureText = "See console (CTRL + Shift + i) for more details."
+javaRequired = "Java is Required<br>to Launch"
+javaRequiredMessage = 'A valid x64 installation of Java {major} is required to launch.<br><br>Please refer to our <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Java Management Guide</a> for instructions on how to manually install Java.'
+javaRequiredDismiss = "I Understand"
+javaRequiredCancel = "Go Back"
 
 [js.landing.downloadJava]
 findJdkFailure = "Échec de la recherche de la distribution OpenJDK."
@@ -202,7 +203,7 @@ downloadingFiles = "Téléchargement des fichiers.."
 errorDuringFileDownloadTitle = "Erreur lors du téléchargement des fichiers"
 preparingToLaunch = "Préparation du lancement.."
 launchingGame = "Lancement du jeu.."
-launchWrapperNotDownloaded = "Le fichier principal, LaunchWrapper, n'a pas été téléchargé correctement. Par conséquent, le jeu ne peut pas être lancé.<br><br>Pour résoudre ce problème, désactivez temporairement votre logiciel antivirus et lancez à nouveau le jeu.<br><br>Si vous avez le temps, veuillez <a href="https://github.com/dscalzi/HeliosLauncher/issues\">soumettre un problème</a> et nous faire savoir quel logiciel antivirus vous utilisez. Nous les contacterons et essaierons de régler les choses."
+launchWrapperNotDownloaded = "The main file, LaunchWrapper, failed to download properly. As a result, the game cannot launch.<br><br>To fix this issue, temporarily turn off your antivirus software and launch the game again.<br><br>If you have time, please <a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">submit an issue</a> and let us know what antivirus software you use. We'll contact them and try to straighten things out."
 doneEnjoyServer = "Terminé. Profitez du serveur !"
 checkConsoleForDetails = "Veuillez vérifier la console (CTRL + Maj + I) pour plus de détails."
 
@@ -211,8 +212,8 @@ checking = "Vérification des actualités"
 
 [js.landing.discord]
 loading = "Chargement du jeu.."
-joining = "Navigation vers Westeros !"
-joined = "Exploration du royaume !"
+joining = "Navigation vers ImaginaTechSMP !"
+joined = "Exploration en cours !"
 
 [js.overlay]
 dismiss = "Dismiss"

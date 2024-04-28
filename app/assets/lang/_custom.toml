@@ -1,7 +1,7 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "ImaginaTechSMP Launcher"
+title = "ImaginaTechSMP - Launcher BETA"
 
 [ejs.landing]
 mediaGitHubURL = "https://www.imaginatechsmp.fr/"
@@ -15,6 +15,6 @@ sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
 supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
 
 [ejs.welcome]
-welcomeHeader = "BIENVENUE À WESTEROSCRAFT"
-welcomeDescription = "Notre mission est de recréer l'univers imaginé par l'auteur George RR Martin dans sa série de fantasy, Le Trône de fer. Grâce à l'effort collaboratif de milliers de membres de la communauté, nous avons cherché à recréer Westeros aussi fidèlement et précisément que possible dans Minecraft. Le monde que nous créons est le vôtre à explorer. Parcourez de Dorne à Châteaunoir, et si vous n'avez pas peur, au-delà du Mur lui-même, mais ne tardez pas. Comme le préviennent de manière sinistre les mots de la Maison Stark : L'Hiver vient."
-welcomeDescCTA = "Vous êtes à seulement quelques clics de Westeros."
+welcomeHeader = "BIENVENUE SUR IMAGINATECHSMP"
+welcomeDescription = "Découvrez ImaginaTechSMP : Un serveur Minecraft révolutionnaire propulsé par le mod Create. Expérimentez une aventure où l'innovation rencontre la créativité et où la construction de machines complexes est la clé du succès économique ! "
+welcomeDescCTA = "Le launcher est spécialement conçu pour améliorer votre expérience de jeu. Facilité d'Installation, Mises à Jour Automatiques, Compatibilité Optimale : tout ce dont vous avez besoin en une seule solution !"
