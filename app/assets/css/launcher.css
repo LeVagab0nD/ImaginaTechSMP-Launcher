@@ -64,7 +64,7 @@ body, button {
     display: flex;
     flex-direction: column;
     transition: background-color 1s ease;
-    /*background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: transparent; /* Rendre la barre transparente */
     -webkit-user-select: none;
 }
 
@@ -2855,7 +2855,7 @@ input:checked + .toggleSwitchSlider:before {
 #image_seal {
     height: 300px;
     width: auto;
-    position: relative;
+    position: absolute;
     box-sizing: border-box;
     border-radius: 600%;
     transition: transform 0.3s ease;
@@ -2868,7 +2868,6 @@ input:checked + .toggleSwitchSlider:before {
     width: 100px;
     border-radius: 25%;
     margin-top: 25px;
-    position: absolute;
 }
 
 /* Logo container styles w/ update. */
@@ -2879,6 +2878,7 @@ input:checked + .toggleSwitchSlider:before {
 
 #image_seal_container[update]:hover {
     transform: scale(1.1);
+    transform-origin: center bottom; /* Définir le point de transformation au centre en bas */
 }
 
 #image_seal_container[update]:before,
