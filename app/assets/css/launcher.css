@@ -46,10 +46,10 @@ body, button {
     color: white;
 }
 
-/*body {
+body {
     background: url('./../images/backgrounds/0.jpg') no-repeat center center fixed;
     background-size: cover;
-}*/
+}
 
 /*******************************************************************************
  *                                                                             *
@@ -64,7 +64,7 @@ body, button {
     display: flex;
     flex-direction: column;
     transition: background-color 1s ease;
-    background-color: transparent; /* Rendre la barre transparente */
+    /*background-color: rgba(0, 0, 0, 0.5);*/
     -webkit-user-select: none;
 }
 
@@ -274,9 +274,11 @@ body, button {
 
 #welcomeImageSeal {
     border-radius: 50%;
-    border: 2px;
+    border: 2px solid #cad7e1;
+    background: rgba(1, 2, 1, 0.5);
     height: 125px;
     width: 125px;
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
     margin-bottom: 5%;
     margin-top: 10%;
 }
@@ -2853,34 +2855,27 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Logo image. */
 #image_seal {
-    height: 300px;
+    height: 70px;
     width: auto;
-    position: absolute;
+    position: relative;
+    border: 2px solid white;
     box-sizing: border-box;
-    border-radius: 600%;
-    transition: transform 0.3s ease;
+    border-radius: 50%;
 }
 
 /* Logo container styles. */
 #image_seal_container {
     position: relative;
-    height: 100px;
-    width: 100px;
-    border-radius: 25%;
-    margin-top: 25px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-top: 50px;
 }
 
 /* Logo container styles w/ update. */
-#image_seal_container[update] {
-    cursor: pointer;
-    transition: transform 0.3s ease;
+#image_seal_container[update]{
+    cursor: pointer
 }
-
-#image_seal_container[update]:hover {
-    transform: scale(1.1);
-    transform-origin: center bottom; /* Définir le point de transformation au centre en bas */
-}
-
 #image_seal_container[update]:before,
 #image_seal_container[update]:after {
     cursor: pointer;
@@ -2890,15 +2885,17 @@ input:checked + .toggleSwitchSlider:before {
     width: 100%;
     top: 0%;
     left: 0%;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #43c628;
+    animation: glow-grow 4s ease-out infinite;
+    background: rgba(0, 0, 0, 0.15);
 }
-
 #image_seal_container[update]:before {
     animation-delay: 2s;
 }
 
 /* Update available tooltip styles. */
 #updateAvailableTooltip {
-    display: none;
     cursor: pointer;
     visibility: hidden;
     opacity: 0;
